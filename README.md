@@ -1,6 +1,7 @@
 # Waves
-Roblox events..
+Roblox signals remade
 
+Simple Usage Example:
 ```lua
 local RbxEvent = require(Waves)
 local NewEvent = RbxEvent.new()
