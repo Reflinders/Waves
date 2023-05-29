@@ -1,5 +1,5 @@
 # Waves
-Roblox signals remade
+A module that attempts to emulate ROBLOX signals.
 
 Simple Usage Example:
 ```lua
