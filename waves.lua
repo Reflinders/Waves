@@ -1,4 +1,4 @@
--- new and update version; v.1.3.2, U-6/19/23
+-- newly updated version; v.1.3.2, U-6/19/23
 local wave = {}; wave.__index = wave
 local connector = require(script.Connector)
 --/ ...
