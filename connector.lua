@@ -6,7 +6,8 @@ end
 function connector:work(...)
 	task.spawn(self.Core, ...)
 end
-function connector.new(func : (any?)->())
+export type Connection = typeof(setmetatable({}, connector))
+function connector.new(func : (any?)->()) : Connection
 	return setmetatable({
 		Core = func
 	}, connector)
