@@ -11,7 +11,7 @@ function wave:Connect(func : (any?) -> (any?)) : connector.Connection
 	local nConnector = connector.new(func)
 	self.con[#self.con + 1] = nConnector; return nConnector
 end
-function wave:Wait(meetsConditions : ()->()|nil) : boolean
+function wave:Wait(meetsConditions : (any?)->(boolean)|nil) : boolean
 	-- waits until a connection is fired with met conditions
 	local fired; local newConnection = self:Connect(function(...)
 		if meetsConditions then
