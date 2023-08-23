@@ -1,5 +1,5 @@
 # Waves
-A module that attempts to emulate ROBLOX signals.
+A module that attempts to emulate ROBLOX signals. Get New Version(s) @ Releases.
 
 Simple Usage Example:
 ```lua
